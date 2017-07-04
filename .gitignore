@@ -4,6 +4,7 @@
 .idea/
 *.swp
 .config_secret/
+.dockerfiles/
 static_root/
 
 ### Django ###
