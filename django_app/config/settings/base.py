@@ -34,9 +34,6 @@ CONFIG_SECRET_COMMON = json.loads(open(CONFIG_SECRET_COMMON_FILE).read())
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = []
 
 
 # Application definition
