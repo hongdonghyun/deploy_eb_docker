@@ -6,7 +6,7 @@ COPY        . /srv/deploy_eb_docker
 # cd srvdeploy_eb_docker와 같은 효과
 WORKDIR     /srv/deploy_eb_docker
 # requirements 설치
-RUN         /root/.pyenv/versions/deploy_eb_docker/bin/pip install -r .requirements/debug.txt
+RUN         /root/.pyenv/versions/deploy_eb_docker/bin/pip install -r .requirements/deploy.txt
 
 # RUN        /root/.pyenv/versions/deploy_eb_docker/bin/uwsgi --http :8000 --chdir /srv/deploy_eb_docker/django_app -w config.settings.debug
 
