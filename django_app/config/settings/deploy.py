@@ -8,7 +8,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(ROOT_DIR, '.static_root')
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(ROOT_DIR, '.media')
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = config_secret_deploy["django"]["allowed_hosts"]
 
 # db
